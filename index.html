@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Laboratoria</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main class="principal">
+        <div class="bienvenida">
+            <h1 class="titulo">Trivia Laboratoria</h1>
+            <img src="assets/pony.png" alt="Trivia">
+            <input class="nombre" type="text" placeholder="Ingrese su nombre"><br>
+            <button class="boton">Comenzar</button>
+        </div>
+
+        <h2 class="titulo-bienvenida">Bienvenido a la trivia</h2>
+        <img class="logo" src="assets/pony.png" alt="Pony trivia">
+        <div class="trivia">
+            <p>1.- ¿A quién se le conocía como el “Brujo de los Andes”?</p>
+            <input type="radio" name="pregunta1" value="Andrés Avelino Cáceres">
+            <label>Andrés Avelino Cáceres</label><br>
+            <input type="radio" name="pregunta1" value="Simon Bolivar">
+            <label>Simon Bolivar</label><br>
+            <input type="radio" name="pregunta1" value="Tupac Amaru">
+            <label>Tupac Amaru</label>
+            <p class="respuesta rsp1">La respuesta correcta es: </p>
+
+            <p>2.- ¿Qué océano bordea la costa de Perú?</p>
+            <input type="radio" name="pregunta2" value="El océano atlantico">
+            <label>El océano atlantico</label><br>
+            <input type="radio" name="pregunta2" value="El océano Pacífico">
+            <label>El océano Pacífico</label><br>
+            <input type="radio" name="pregunta2" value="El océano indico">
+            <label>El océano indico</label>
+            <p class="respuesta rsp2">La respuesta correcta es: </p>
+
+            <p>3.- ¿Cuántos departamentos constituyen el territorio peruano?</p>
+            <input type="radio" name="pregunta3" value="25">
+            <label>25</label><br>
+            <input type="radio" name="pregunta3" value="24">
+            <label>24</label><br>
+            <input type="radio" name="pregunta3" value="26">
+            <label>26</label>
+            <p class="respuesta rsp3">La respuesta correcta es: </p>
+
+            <p>4.- ¿Qué gran ave rapaz encuentra su hábitat natural en los Andes peruanos?</p>
+            <input type="radio" name="pregunta4" value="Cóndor">
+            <label>Cóndor</label><br>
+            <input type="radio" name="pregunta4" value="Pava aliblanca">
+            <label>Pava aliblanca</label><br>
+            <input type="radio" name="pregunta4" value="Gallito de las rocas">
+            <label>Gallito de las rocas</label>
+            <p class="respuesta rsp4">La respuesta correcta es: </p>
+
+            <p>5.-¿Quién es este revolucionario incaico?</p>
+            <input type="radio" name="pregunta5" value="Andrés Avelino Cáceres">
+            <label>Andrés Avelino Cáceres</label><br>
+            <input type="radio" name="pregunta5" value="Túpac Amaru II">
+            <label>Túpac Amaru II</label><br>
+            <input type="radio" name="pregunta5" value="Tupac Amaru">
+            <label>Tupac Amaru</label><br>
+            <p class="respuesta rsp5">La respuesta correcta es: </p>
+            
+            <p class="puntaje">Tu puntaje es: </p>
+
+            <button class="enviar">Enviar</button>
+
+            <button class="nuevo">Volver a jugar</button>
+
+        </div>
+    </main>
+
+
+    <script src="js/app.js"></script>
+</body>
+</html>
